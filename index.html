@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heroes of Might and Magic III</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #e8eef7;
+      background: #090d16;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top, #2a4a74 0%, #080c14 55%, #04060c 100%); }
+    header { background: rgba(8, 12, 19, 0.95); padding: 24px 36px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .brand { font-size: 1.3rem; letter-spacing: 0.18em; font-weight: 700; text-transform: uppercase; color: #ffdd76; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    nav a { color: #c8dbff; text-decoration: none; padding: 10px 16px; border-radius: 999px; background: rgba(255,255,255,0.06); transition: background 0.25s ease, transform 0.25s ease; }
+    nav a:hover { background: rgba(255,255,255,0.14); transform: translateY(-1px); }
+    main { padding: 36px 24px 48px; max-width: 1040px; margin: 0 auto; }
+    .hero { padding: 36px 32px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 28px; box-shadow: 0 24px 80px rgba(0,0,0,0.18); margin-bottom: 28px; }
+    .eyebrow { display: inline-flex; margin-bottom: 14px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.16em; color: #9db7ff; }
+    h1, h2 { color: #ffd87f; margin: 0; }
+    h2 { margin-bottom: 14px; }
+    p { line-height: 1.8; color: #dfe7f3; }
+    section.card { background: rgba(255,255,255,0.04); border-radius: 20px; padding: 26px; margin-bottom: 22px; border: 1px solid rgba(255,255,255,0.08); }
+    .buttons { margin-top: 18px; }
+    .button { display: inline-block; margin-right: 12px; margin-bottom: 8px; padding: 12px 18px; background: #3c5d8e; color: #fff; border-radius: 999px; text-decoration: none; font-weight: 600; transition: background 0.25s ease; }
+    .button:hover { background: #5b7ebd; }
+    footer { padding: 20px 0; text-align: center; color: #97a7c6; border-top: 1px solid rgba(255,255,255,0.08); }
+    @media (max-width: 720px) { header { flex-direction: column; text-align: center; } nav { justify-content: center; } main { padding: 28px 16px 36px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Heroes of Might and Magic III</h1>
+    <nav>
+      <a href="index.html">What is it?</a>
+      <a href="gameplay.html">Gameplay</a>
+      <a href="legacy.html">Legacy</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Heroes of Might and Magic III</div>
+      <h2>A modern fan page for a classic fantasy strategy title</h2>
+      <p>Explore the core concepts behind the beloved 1999 turn-based strategy game, discover why it became a genre favorite, and learn about the enduring legacy that keeps players engaged today.</p>
+    </div>
+    <section class="card">
+      <h2>About the Game</h2>
+      <p>Heroes of Might and Magic III is a classic turn-based strategy game published by 3DO and developed by New World Computing. It was released in 1999 and quickly became one of the most beloved fantasy strategy titles.</p>
+      <p>The game blends hero development, army management, town building, and exploration in a fantasy world filled with castles, monsters, and powerful artifacts.</p>
+    </section>
+    <section class="card">
+      <h2>Why It Matters</h2>
+      <p>Heroes 3 is best known for its deep tactical combat, memorable factions, and rich campaign stories. It is often praised for replay value and strong community support even decades later.</p>
+    </section>
+    <section class="card">
+      <div class="buttons">
+        <a class="button" href="gameplay.html">Gameplay Details</a>
+        <a class="button" href="legacy.html">Legacy &amp; Mods</a>
+      </div>
+    </section>
+  </main>
+  <footer>Site created by Vladislav Dvorkin</footer>
+</body>
+</html>

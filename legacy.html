@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heroes 3 Legacy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #e8eef7;
+      background: #090d16;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top, #2c4d7e 0%, #070b14 55%, #02040b 100%); }
+    header { background: rgba(8, 12, 19, 0.95); padding: 24px 36px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .brand { font-size: 1.3rem; letter-spacing: 0.18em; font-weight: 700; text-transform: uppercase; color: #ffdd76; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    nav a { color: #c8dbff; text-decoration: none; padding: 10px 16px; border-radius: 999px; background: rgba(255,255,255,0.06); transition: background 0.25s ease, transform 0.25s ease; }
+    nav a:hover { background: rgba(255,255,255,0.14); transform: translateY(-1px); }
+    main { padding: 36px 24px 48px; max-width: 1040px; margin: 0 auto; }
+    .hero { padding: 32px 30px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 26px; box-shadow: 0 24px 80px rgba(0,0,0,0.18); margin-bottom: 28px; }
+    .eyebrow { display: inline-flex; margin-bottom: 14px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.16em; color: #9db7ff; }
+    h1, h2 { color: #ffd87f; margin: 0; }
+    h2 { margin-bottom: 14px; }
+    p { line-height: 1.8; color: #dfe7f3; }
+    section.card { background: rgba(255,255,255,0.04); border-radius: 20px; padding: 26px; margin-bottom: 22px; border: 1px solid rgba(255,255,255,0.08); }
+    footer { padding: 20px 0; text-align: center; color: #97a7c6; border-top: 1px solid rgba(255,255,255,0.08); }
+    @media (max-width: 720px) { header { flex-direction: column; text-align: center; } nav { justify-content: center; } main { padding: 28px 16px 36px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Heroes of Might and Magic III Legacy</h1>
+    <nav>
+      <a href="index.html">Overview</a>
+      <a href="gameplay.html">Gameplay</a>
+      <a href="legacy.html">Legacy</a>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Enduring legacy</div>
+      <h2>Why Heroes 3 still matters</h2>
+      <p>Learn how expansions, modern ports, and a dedicated player community keep this classic strategy game relevant for new generations and longtime fans alike.</p>
+    </div>
+    <section class="card">
+      <h2>Why Heroes 3 Is Still Popular</h2>
+      <p>Heroes 3 is widely regarded as one of the best strategy games ever made. Its friendly modding community and strong design keep players returning long after its release.</p>
+    </section>
+    <section class="card">
+      <h2>Expansions and Remasters</h2>
+      <p>The original game had expansions like <em>Armageddon's Blade</em> and <em>The Shadow of Death</em>. A modern edition, often called the HD Edition, brought support for newer systems and higher resolutions.</p>
+    </section>
+    <section class="card">
+      <h2>Community and Mods</h2>
+      <p>Fans continue to create custom maps, mods, and full campaigns. This community support has helped Heroes 3 remain active for decades.</p>
+    </section>
+  </main>
+  <footer>Site created by Vladislav Dvorkin</footer>
+</body>
+</html>
